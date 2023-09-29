@@ -1,0 +1,38 @@
+body {
+    font-family: "Mali";
+    background-color: #000000;
+    color: #96DDF0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Pangolin";
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+    color: #52D6FF;
+}
+
+header img {
+    width: 125px;
+}
+
+#hero, footer {
+    color: #000000;
+    background-color: #52D6FF;
+    font-size: 30pt;
+    text-align: center;
+    padding: 10px;
+    border: 10px #00799E solid;
+}
+
+#hero img {
+    width: 400px;
+}
+
+#bio {
+    font-size: 20pt;
+    text-align: center;
+    padding: 2px;
+}
