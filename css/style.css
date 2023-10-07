@@ -105,3 +105,40 @@ header img {
     text-align: center;
     font-size: 30pt;
 }
+
+/* Article Section */
+
+#lit {
+    color: #34BFEB;
+    border-top: 15px groove #00799E;
+    border-bottom: 15px groove #00799E;
+    border-radius: 3em;
+    margin: 25px 5px;
+}
+
+#lit h2 {
+    color: #00799E;
+    font-size: 50pt;
+    font-variant: small-caps;
+    text-shadow: 2px 2px #34BFEB;
+
+}
+
+#lit p {
+    font-size: 15pt;
+    line-height: 1.85;
+}
+
+#lit p::first-letter {
+    color: #000000;
+    font-size: 25pt;
+    font-family: "Pangolin";
+    border: 6px groove #000000;
+    border-radius: 0.3em;
+    float: none;
+    padding: 0.25em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    background-image: radial-gradient(#52D6FF, #00799E);
+    box-shadow: 4px 4px 4px #00799E;
+}
