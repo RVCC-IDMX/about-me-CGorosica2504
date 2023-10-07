@@ -21,6 +21,8 @@ header img {
     width: 125px;
 }
 
+/* Hero Section */
+
 #hero, footer {
     color: #000000;
     background-color: #52D6FF;
@@ -34,11 +36,15 @@ header img {
     width: 400px;
 }
 
+/* Bio Section */
+
 #bio {
     font-size: 20pt;
     text-align: center;
     padding: 2px;
 }
+
+/* Hobbies and Interests Section */
 
 #hobbies {
     color: #000000;
@@ -54,11 +60,13 @@ header img {
 
 #hobbies h2 {
     text-align: center;
+    text-shadow: 4px 4px #96DDF0;
 }
 
 #hobbies ul li{
     font-family:"Pangolin";
     font-variant: small-caps;
+    text-shadow: 3px 3px #96DDF0;
 }
 
 #hobbies p {
@@ -67,4 +75,33 @@ header img {
 
 #hobbies ul li::first-letter {
     font-size: 50pt;
+}
+
+/* Gallery Section */
+
+#gallery {
+    font-family:"Pangolin";
+    text-shadow: 4px 4px #000000;
+    border: 20px groove #00799E;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 30px 5px;
+    background-image: radial-gradient(#00799E, #000000);
+}
+
+#gallery h2 {
+    font-size: 50pt;
+    text-align: center;
+}
+
+#gallery img {
+    border: 15px ridge black;
+    max-width: 80%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    
+}
+
+#gallery figure {
+    text-align: center;
+    font-size: 30pt;
 }
