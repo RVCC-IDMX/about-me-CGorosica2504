@@ -6,6 +6,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Pangolin";
+}
+
+h1 {
     font-size: 50pt;
 }
 
@@ -35,4 +38,33 @@ header img {
     font-size: 20pt;
     text-align: center;
     padding: 2px;
+}
+
+#hobbies {
+    color: #000000;
+    font-size: 40pt;
+    background-color:#52D6FF;
+    border: 20px ridge #00799E;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px 5px;
+    background-image:radial-gradient(#00799E, #34BFEB);
+    
+}
+
+#hobbies h2 {
+    text-align: center;
+}
+
+#hobbies ul li{
+    font-family:"Pangolin";
+    font-variant: small-caps;
+}
+
+#hobbies p {
+    font-size: 18pt;
+}
+
+#hobbies ul li::first-letter {
+    font-size: 50pt;
 }
