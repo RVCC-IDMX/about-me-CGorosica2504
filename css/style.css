@@ -12,6 +12,10 @@ h1 {
     font-size: 50pt;
 }
 
+h2 {
+    margin: 0.1em;
+}
+
 header {
     text-align: center;
     color: #52D6FF;
@@ -47,15 +51,17 @@ header img {
 /* Hobbies and Interests Section */
 
 #hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
     color: #000000;
     font-size: 40pt;
     background-color:#52D6FF;
     border: 20px ridge #00799E;
     border-radius: 20px;
     padding: 5px;
-    margin: 20px 5px;
+    margin: 20px;
     background-image:radial-gradient(#00799E, #34BFEB);
-    
 }
 
 #hobbies h2 {
@@ -142,4 +148,19 @@ header img {
     margin-left: 0.25em;
     background-image: radial-gradient(#52D6FF, #00799E);
     box-shadow: 4px 4px 4px #00799E;
+}
+
+@media screen and (min-width: 60em) {
+   figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   }
+
+   figcaption {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+   }
 }
