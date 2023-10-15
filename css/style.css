@@ -48,6 +48,22 @@ header img {
     padding: 2px;
 }
 
+#bio a:link {
+    color: #96DDF0;
+}
+
+#bio a:visited {
+    color: #52D6FF;
+}
+
+#bio a:hover {
+    color: #00799E;
+}
+
+#bio a:active {
+    color: #FFFFFF;
+}
+
 /* Hobbies and Interests Section */
 
 #hobbies {
