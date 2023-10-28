@@ -77,7 +77,7 @@ header img {
     border-radius: 20px;
     padding: 5px;
     margin: 20px;
-    background-image:radial-gradient(#00799E, #34BFEB);
+    background-image:radial-gradient(#29afd8, #78e0ff);
 }
 
 #hobbies h2 {
@@ -152,7 +152,7 @@ header img {
     line-height: 1.85;
 }
 
-#lit p::first-letter {
+#lit p:first-child::first-letter {
     color: #000000;
     font-size: 25pt;
     font-family: "Pangolin";
@@ -178,7 +178,7 @@ header img {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 1rem;
    }
 
