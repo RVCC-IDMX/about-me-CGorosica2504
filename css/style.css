@@ -212,8 +212,93 @@ header img {
 
 #form-elements {
     display: grid;
+    row-gap: .5em;
 }
 
+#contact {
+    font-size: 1.4em;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    color: #000000;
+    border: 20px ridge #00799E;
+    border-radius: 20px;
+    background-color:#52D6FF;
+    background-image:radial-gradient(#29afd8, #78e0ff);
+}
+
+fieldset {
+    border: 6px groove #00799E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #96DDF0;
+    background-color: #00799E;
+    border: 4px groove #00799E;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border: 5px groove #52D6FF;
+    border-radius: 15px;
+}
+
+#contact input:focus, #contact textarea:focus {
+    border: 5px groove #00799E;
+}
+
+#contact input:hover, #contact textarea:hover {
+    border: 5px groove #b6efff;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact h2 {
+    font-size: 4em;
+    font-variant: small-caps;
+    text-shadow: 4px 4px #96DDF0;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact label {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#contact button {
+    color: #b6efff;
+    background-color: #00799E;
+    border: 5px groove #00799E;
+    max-width: 200px;
+    width: 50%;
+    justify-self: center;
+    transition-duration: 0.2s;
+}
+
+#contact button:hover {
+    color: #34BFEB;
+    background-color: #00495f;
+    border: 5px ridge #001b24;
+}
 
 /* Tablet Size */
 
