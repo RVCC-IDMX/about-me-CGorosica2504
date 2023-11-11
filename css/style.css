@@ -90,6 +90,7 @@ header img {
     font-family:"Pangolin";
     font-variant: small-caps;
     text-shadow: 3px 3px #96DDF0;
+    list-style: none;
 }
 
 #hobbies p {
