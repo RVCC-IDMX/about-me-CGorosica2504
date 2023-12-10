@@ -1,7 +1,8 @@
 body {
     font-family: "Mali";
-    background-color: #000000;
-    color: #96DDF0;
+    background-color: #00101f;
+    background-image: radial-gradient(#000820, #000000);
+    color: #EDEDED;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +20,7 @@ h2 {
 
 header {
     text-align: center;
-    color: #52D6FF;
+    color: #EDEDED;
 }
 
 header img {
@@ -29,12 +30,16 @@ header img {
 /* Hero Section */
 
 #hero, footer {
-    color: #000000;
-    background-color: #52D6FF;
+    color: #EDEDED;
+    background-color: #002E59;
+    background-image: radial-gradient(#000c35, #000000);
     font-size: 30pt;
+    font-variant: small-caps;
     text-align: center;
     padding: 10px;
-    border: 10px #00799E solid;
+    margin: 10px;
+    border:15px #000c35 groove;
+    border-radius: 20px;
 }
 
 #hero img {
@@ -50,19 +55,19 @@ header img {
 }
 
 #bio a:link {
-    color: #96DDF0;
+    color: #ffffff;
 }
 
 #bio a:visited {
-    color: #52D6FF;
+    color: #00196d;
 }
 
 #bio a:hover {
-    color: #00799E;
+    color: #003cff;
 }
 
 #bio a:active {
-    color: #FFFFFF;
+    color: #585858;
 }
 
 /* Hobbies and Interests Section */
@@ -71,31 +76,30 @@ header img {
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    color: #000000;
-    font-size: 40pt;
-    background-color:#52D6FF;
-    border: 20px ridge #00799E;
+    color: #EDEDED;
+    font-size: 45pt;
+    background-color: #002E59;
+    border: 20px groove #000c35;
     border-radius: 20px;
     padding: 5px;
     margin: 20px;
-    background-image:radial-gradient(#29afd8, #78e0ff);
+    background-image: radial-gradient(#000c35, #000000);
 }
 
 #hobbies h2 {
     text-align: center;
-    text-shadow: 4px 4px #96DDF0;
+    text-shadow: 4px 4px #000000;
 }
 
 #hobbies ul li{
     font-family:"Pangolin";
     font-variant: small-caps;
-    text-shadow: 3px 3px #96DDF0;
+    text-shadow: 3px 3px #000000;
     list-style: none;
 }
 
 #hobbies p {
     font-size: 20pt;
-    font-weight: 900;
 }
 
 #hobbies ul li::first-letter {
@@ -107,11 +111,11 @@ header img {
 #gallery {
     font-family:"Pangolin";
     text-shadow: 4px 4px #000000;
-    border: 20px groove #00799E;
+    border: 20px groove #000c35;
     border-radius: 30px;
     padding: 10px;
     margin: 30px 5px;
-    background-image: radial-gradient(#00799E, #000000);
+    background-image: radial-gradient(#000c35, #000000);
 }
 
 #gallery h2 {
@@ -134,18 +138,18 @@ header img {
 /* Article Section */
 
 #lit {
-    color: #34BFEB;
-    border-top: 15px groove #00799E;
-    border-bottom: 15px groove #00799E;
+    color: #EDEDED;
+    border-top: 15px groove #000c35;
+    border-bottom: 15px groove #000c35;
     border-radius: 3em;
     margin: 25px 5px;
 }
 
 #lit h2 {
-    color: #00799E;
+    color: #EDEDED;
     font-size: 50pt;
     font-variant: small-caps;
-    text-shadow: 2px 2px #34BFEB;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -164,8 +168,8 @@ header img {
     padding: 0.25em;
     margin-right: 0.25em;
     margin-left: 0.25em;
-    background-image: radial-gradient(#52D6FF, #00799E);
-    box-shadow: 4px 4px 4px #00799E;
+    background-image: radial-gradient(#003cff, #000c35);
+    box-shadow: 4px 4px 4px #000c35;
 }
 
 /* Video Style */
@@ -174,11 +178,11 @@ header img {
     text-align: center;
     font-family:"Pangolin";
     text-shadow: 4px 4px #000000;
-    border: 20px groove #00799E;
+    border: 20px groove #000c35;
     border-radius: 30px;
     padding: 10px;
     margin: 30px 5px;
-    background-image: radial-gradient(#00799E, #000000);
+    background-image: radial-gradient(#000c35, #000000);
     
 }
 
@@ -221,44 +225,45 @@ header img {
     padding: 1rem;
     max-width: 800px;
     margin: 2rem auto;
-    color: #000000;
-    border: 20px ridge #00799E;
+    color: #EDEDED;
+    border: 20px groove #000c35;
     border-radius: 20px;
-    background-color:#52D6FF;
-    background-image:radial-gradient(#29afd8, #78e0ff);
+    background-color:#000c35;
+    background-image: radial-gradient(#000c35, #000000);
 }
 
 fieldset {
-    border: 6px groove #00799E;
+    border: 6px groove #000c35;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 legend {
     font-size: 1.4em;
-    font-weight: 600;
-    color: #96DDF0;
-    background-color: #00799E;
-    border: 4px groove #00799E;
+    color: #EDEDED;
+    background-color: #000c35;
+    border: 4px groove #000c35;
     border-radius: 10px;
     padding: 0.5em;
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
+    color: white;
+    background-color: black;
     padding: 0.5em;
     font-size: 1.2rem;
     font-weight: 500;
     outline: none;
-    border: 5px groove #52D6FF;
+    border: 5px groove #003cff;
     border-radius: 15px;
 }
 
 #contact input:focus, #contact textarea:focus {
-    border: 5px groove #00799E;
+    border: 5px groove black;
 }
 
 #contact input:hover, #contact textarea:hover {
-    border: 5px groove #b6efff;
+    border: 5px groove #7696ff;
 }
 
 #contact textarea {
@@ -268,7 +273,7 @@ legend {
 #contact h2 {
     font-size: 4em;
     font-variant: small-caps;
-    text-shadow: 4px 4px #96DDF0;
+    text-shadow: 4px 4px black;
 }
 
 #contact ul {
@@ -282,13 +287,12 @@ legend {
 
 #contact label {
     font-size: 1em;
-    font-weight: 600;
 }
 
 #contact button {
-    color: #b6efff;
-    background-color: #00799E;
-    border: 5px groove #00799E;
+    color: #EDEDED;
+    background-color: #003cff;
+    border: 5px groove #000c35;
     max-width: 200px;
     width: 50%;
     justify-self: center;
@@ -296,9 +300,9 @@ legend {
 }
 
 #contact button:hover {
-    color: #34BFEB;
-    background-color: #00495f;
-    border: 5px ridge #001b24;
+    color: #a1a1a1;
+    background-color: #000c35;
+    border: 5px ridge black;
 }
 
 /* Tablet Size */
