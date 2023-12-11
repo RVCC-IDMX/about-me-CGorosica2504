@@ -12,20 +12,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
 
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+
 </head>
 
 <body>
     <header>
+
+        <div class="logo">
+
+            <img src="img\new-logo.svg" alt="My initials as a logo">
+
+            <h1> Web Dev 1</h1>
+
+        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        
         
         <nav class="navbar">
-
-            <div class="logo">
-
-                <img src="img\bob-logo.svg" alt="Blue origami logo">
-
-                <h1> Web Dev 1</h1>
-
-            </div>
 
             <div class="navbar-links">
 
@@ -37,10 +42,15 @@
                     <li><a href="#contact">Contact Me</a></li>
 
                 </ul>
-
             </div>
 
         </nav>
+
+        <label for="nav-toggle" class="nav-toggle-label">
+
+            <span></span>
+
+        </label>
 
     </header>
 
@@ -48,7 +58,8 @@
 
     <main>
         <section id="hero">
-            <img src="img\avataaars.png" alt="Avatar picture of me">
+
+            <img src="img\selfie.jpg" alt="Simple portrait picture of me">
 
             <div>
                 <p>Christian Emmanuel Gorosica</p>
@@ -85,31 +96,20 @@
                 <li>Video Games</li>
 
                 <p>Out of all of the things I do, I'd say that playing video games is my most favorite thing to do. Specifically, I love to play RPGs, adventure, survival, and
-                    sandbox games. I find that playing video games is the best way for me to enjoy my personal time. As so, I do it almost always whenever I have time
-                    to kill or when I want to relax.
-                </p>
-
-                <p>At the current moment, my favorite video game is this 2D survival adventure game called Terraria. I have the most hours played on it out of all of the games I own, and 
-                    despite having played it for so long, I have yet to get tired of starting this game up and playing a new world each time. Especially since I tend to play with mods
-                    that add even more content.
+                    sandbox games. I play video games almost always whenever I have time to kill or when I want to relax. At the current moment, my favorite video game is this 2D survival adventure game called Terraria. I have the most hours played on it out of all of the games I own.
                 </p>
 
                 <li>Reading</li>
 
                 <p>Often times if I'm not playing video games, I tend to read books instead. Whether it be my physical books that I have, or an online story, I find that reading is
-                    another peaceful and enjoyable way to spend my time. While I do play video games a lot more, I can not deny that a good book is just as good to me at times.
-                </p>
-
-                <p>So far my favorite book series has to be The Witcher series by Andrzej Sapkowski. Originally I found the Witcher story through the third game adaption, The Witcher
-                    3: Wild Hunt. After playing the game, I was thoroughly impressed with the story and the characters as it became part of my Top 3 favorite games of all time. Given
-                    that fascination, I went on to the books as I was hungry to know more of the game's story, and now, this book series is my top favorite of all time.
+                    another peaceful and enjoyable way to spend my time. While I do play video games a lot more, I can not deny that a good book is just as good to me at times. So far my favorite book series has to be The Witcher series by Andrzej Sapkowski.
                 </p>
 
                 <li>Birds</li>
 
                 <p>For some reason, at some point in time, I grew a tiny bit of interest in birds. Perhaps it was the fact that I grew up with one when I was younger, but nowadays
                     I find that birds are pretty cool animals. Now, while I do find them interesting, I don't tend to have a thorough desire to learn about them. However, thanks to
-                    my parents, I do have three pet birds. They're all Budgerigars.
+                    my parents, I do have two pet birds. They're all Budgerigars.
                 </p>
 
                 <p>
@@ -118,15 +118,9 @@
                 </p>
 
                 <p>
-                    My second is one named Chefesito. He's a slightly different coloration where he is predominantly yellow and then green. He's the goodest boy but also a shy boy. Out 
-                    of the three, he loves to talk and sing the most. He has the strongest chirp in the house and can talk to you all day about his thorough desire of seeds and my
-                    finger, assuming he's warmed up to you.
-                </p>
-
-                <p>
-                    Last but definitely not least, I have Ivy, an almost white but yellowish budgie with red eyes. She's a crazy little girl who is not afraid to make noise and cause chaos. While
+                    My second one is called Ivy, an almost white but yellowish budgie with red eyes. She's a crazy little girl who is not afraid to make noise and cause chaos. While
                     she's more reserved than Chefesita, Ivy is not afraid to cause a ruckus herself. She loves to hang upside down and swing on her swing, loves to fly fast, and has 
-                    a fascination with hiding from me by blending in with the walls of my room. She's the best at hiding and she won't give a break sometimes because of that.
+                    a fascination with hiding from me by blending in with the walls of my room.
                 </p>
 
                 <li>Music</li>
@@ -165,23 +159,44 @@
 
             <hr>
 
-            <figure>
+            <figure class="picture-container">
+
                 <img src="img\terraria-640w.jpg" alt="A picture of Terraria's main menu on my monitor.">
-                <figcaption>Terraria's main menu on my monitor. My favorite game of all time.</figcaption>
+
+                    <div>
+
+                        <figcaption>Terraria's main menu on my monitor. My favorite game of all time.</figcaption>
+
+                    </div>
+
             </figure>   
 
             <hr>
 
-            <figure>
+            <figure class="picture-container">
+
                 <img src="img\book-640w.jpg" alt="A picture of the book The Last Wish by Andrzej Sapkowski.">
-                <figcaption>The Last Wish by Andrzej Sapkowski. A book from my favorite book series The Witcher.</figcaption>
+
+                    <div>
+
+                        <figcaption>The Last Wish by Andrzej Sapkowski. A book from my favorite book series The Witcher.</figcaption>
+
+                    </div>
+
             </figure>
 
             <hr>
 
-            <figure>
+            <figure class="picture-container">
+
                 <img src="img/birds-640w.jpg" alt="A picture of my three budgies.">
-                <figcaption>Ivy [Top Left], Chefesito [Top Right], Chefesita [Lower Left]. My budgies.</figcaption>
+
+                    <div>
+
+                        <figcaption>Ivy [Top Left], Chefesito [Top Right, Deceased], Chefesita [Lower Left]. My budgies.</figcaption>
+
+                    </div>
+
             </figure>
 
         </section>
@@ -329,6 +344,7 @@
 <footer>
 
     ©2023 - Christian Emmanuel Gorosica
+    <p><a href="https://github.com/CGorosica2504">My GitHub</a></p>
 
 </footer>
 
