@@ -59,19 +59,19 @@ header img {
     padding: 2px;
 }
 
-#bio a:link {
+#bio a:link, footer a:link {
     color: #ffffff;
 }
 
-#bio a:visited {
+#bio a:visited, footer a:visited {
     color: #00196d;
 }
 
-#bio a:hover {
+#bio a:hover, footer a:hover{
     color: #003cff;
 }
 
-#bio a:active {
+#bio a:active, footer a:active {
     color: #585858;
 }
 
@@ -307,6 +307,24 @@ legend {
     color: #a1a1a1;
     background-color: #000c35;
     border: 5px ridge black;
+}
+
+/* Footer Style */
+
+footer a:link {
+    color: #ffffff;
+}
+
+footer a:visited {
+    color: #00196d;
+}
+
+footer a:hover{
+    color: #003cff;
+}
+
+footer a:active {
+    color: #585858;
 }
 
 /* Tablet Size */
