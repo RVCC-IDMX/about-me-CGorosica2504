@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 160px;
 }
 
 /* 
@@ -50,7 +51,7 @@ header {
 }
 
 .logo h1 {
-    font-size: 2.25em;
+    font-size: 2em;
 }
 
 /* Hamburger Icon Styling */
@@ -60,7 +61,7 @@ header {
 }
 
 .nav-toggle:checked ~ nav {
-    /* display: block; */
+    transform: scale(1,1);
 }
 
 .nav-toggle-label {
@@ -107,7 +108,9 @@ header {
     left: 0;
     background-color: rgba(0, 8, 32, 0.90);
     width: 100%;
-    /* display: none; */
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
 }
 
 .navbar ul {
@@ -137,7 +140,15 @@ header {
     display: inline-block;
     transition-duration: 125ms;
     transition-timing-function: ease-in;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
 }
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 200ms ease-in-out 200ms;
+}
+
 
 .navbar-links a:hover,
 .navbar-links a:focus {
@@ -154,26 +165,41 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-/* @media screen and (min-width: 70rem) {
+@media screen and (min-width: 70rem) {
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 4fr) 1fr; 
+    }
+
+    .logo {
+        grid-column: 2 / span 1;
+    }
 
     .navbar {
-        flex-direction: row;
-        justify-content: space-between;
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .navbar ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+    }
+
+    .navbar li {
+        margin-left: 3em;
+        margin-bottom: 0;
     }
 
     .navbar-links a {
-        margin-left: 1rem;
-        font-size: 2.15rem;
+        opacity: 1;
     }
 
-    .logo img {
-        height: 7vw;
-        width: 7vw;
-    }
-
-} */
+}
