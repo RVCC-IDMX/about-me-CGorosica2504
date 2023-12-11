@@ -311,6 +311,10 @@ legend {
 
 /* Footer Style */
 
+footer {
+    font-size: 20pt;
+}
+
 footer a:link {
     color: #ffffff;
 }
