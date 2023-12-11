@@ -52,7 +52,7 @@ Generally speaking I am fond of "dark mode" color schemes where text is highligh
 The main colors used are:
 
 #000000
-#000c35
+#000C35
 #002E59
 #EDEDED
 
