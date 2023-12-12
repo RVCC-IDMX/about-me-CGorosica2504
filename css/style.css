@@ -186,7 +186,7 @@ header img {
 .blog-picture-set img {
     vertical-align: middle;
     margin: 0.5em;
-    width:100%;
+    width: 85%;
     max-width: 350px;
     height: auto;
     border: 10px #000c35 groove;
