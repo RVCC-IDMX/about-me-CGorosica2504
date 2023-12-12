@@ -35,7 +35,7 @@ In this section I learned how to upload pictures and style both the structure an
 
 6. Blog
 
-
+Within this section I learned to apply many different types of hover effects on an image. I experimented with different properties and had fun messing around to figure out how much I can change a picture through CSS.
 
 7. Media Video
 
@@ -63,6 +63,26 @@ YOUTUBE VIDEO
 
 The YouTube video I link within my BIO section belongs to Secession Studios
 https://www.youtube.com/channel/UCwd8uu2mtJUgHYRffUl2yPQ
+
+CSS IMAGE HOVER EFFECT BLOG
+
+W3SCHOOLS
+
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+https://www.w3schools.com/howto/howto_css_image_effects.asp
+
+https://www.w3schools.com/cssref/css_pr_translate.php
+
+https://www.w3schools.com/cssref/css_pr_scale.php
+
+https://www.w3schools.com/cssref/css3_pr_filter.php
+
+THEBRANDSMEN
+
+https://thebrandsmen.com/css-image-hover-effects/
+
+
 
 *LICENSE*
 

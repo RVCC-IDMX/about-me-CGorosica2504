@@ -176,6 +176,125 @@ header img {
     box-shadow: 4px 4px 4px #000c35;
 }
 
+.blog-picture-set {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-picture-set img {
+    vertical-align: middle;
+    margin: 0.5em;
+    width:100%;
+    max-width: 350px;
+    height: auto;
+    border: 10px #000c35 groove;
+}
+
+.blog-picture-set figcaption {
+    text-align: center;
+    margin: 0.5em;
+    font-size: 25pt;
+}
+
+/* Article Figure Hover Styling Secion */
+
+/* Opacity Figure */
+
+.opacity-fig img {
+    transition: opacity 1s ease-in 500ms;
+}
+
+.opacity-fig img:hover {
+    opacity: 0.1;
+}
+
+/* Translate Figure */
+
+.translate-fig img {
+    transition: transform 250ms ease-in-out;
+}
+
+.translate-fig img:hover {
+    transform: translate(10em, 1em);
+}
+
+/* Scaling Shrinking Figure */
+
+.scale-shrink-fig img {
+    transition: transform 1s ease-in-out;
+}
+
+.scale-shrink-fig img:hover {
+    transform: scale(0.8, 0.5);
+}
+
+/* Scaling Enlarging Figure */
+
+.scale-enlarge-fig img {
+    transform: scale(0.8, 0.5);
+    transition: transform 100ms ease-in-out;
+}
+
+.scale-enlarge-fig img:hover {
+    transform: scale(1, 1);
+}
+
+/* Grayscale Figure */
+
+.grayscale-fig img {
+    transition: filter 400ms ease-in-out;
+}
+
+.grayscale-fig img:hover {
+    filter: grayscale(100%)
+}
+
+/* Sepia Grayscale Figure */
+
+.sepia-fig img {
+    transition: filter 400ms ease-in-out;
+}
+
+.sepia-fig img:hover {
+    filter: sepia(100%);
+}
+
+/* Saturation Figure */
+
+.saturation-fig img {
+    transition: filter 400ms ease-in-out;
+}
+
+.saturation-fig img:hover {
+    filter: saturate(300%);
+}
+
+/* Color Inversion Figure */
+
+.invert-fig img {
+    transition: filter 400ms ease-in-out;
+}
+
+.invert-fig img:hover {
+    filter: invert(100%);
+}
+
+/* Multiple Effects Figure */
+
+.multiple-fig img {
+    transform: scale(0.8, 0.8);
+    transition: 400ms ease-in-out;
+}
+
+.multiple-fig img:hover {
+    transform: scale(1.2, 1.2);
+    transform: translate(10em, 1em);
+    filter: saturate(300%);
+}
+
+
 /* Video Style */
 
 #video {
@@ -359,7 +478,6 @@ footer a:active {
 
 #lit div {
     max-width: 100%;
-    columns: 20rem;
 }
 
 /* Large Screen Size */
@@ -385,22 +503,22 @@ footer a:active {
 
     .picture-container figcaption {
         opacity: 0;
+        transition: 400ms ease-in-out;
     }
 
     .picture-container:hover figcaption {
         opacity: 1;
-        transition: 400ms ease-in-out;
     }
 
     #gallery img {
-        border: none;
+        border: 10px ridge #000000;
         box-shadow: none;
+        transition: 250ms ease-in-out;
     }
 
     #gallery img:hover {
         border: 15px ridge #000c35;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
-        transition: 400ms ease-in-out;
     }
 
     #video-box iframe {
