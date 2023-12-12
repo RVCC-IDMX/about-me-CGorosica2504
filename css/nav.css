@@ -203,6 +203,7 @@ such that no text wraps
 
     .navbar-links a {
         opacity: 1;
+        transition: 250ms ease-in-out;
     }
 
 }
