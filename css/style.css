@@ -184,6 +184,7 @@ header img {
 }
 
 .blog-picture-set img {
+    vertical-align: middle;
     margin: 0.5em;
     width:100%;
     max-width: 350px;
@@ -262,11 +263,11 @@ header img {
 
 /* Saturation Figure */
 
-.contrast-fig img {
+.saturation-fig img {
     transition: filter 400ms ease-in-out;
 }
 
-.contrast-fig img:hover {
+.saturation-fig img:hover {
     filter: saturate(300%);
 }
 
@@ -288,7 +289,7 @@ header img {
 }
 
 .multiple-fig img:hover {
-    transform: scale(1, 1);
+    transform: scale(1.2, 1.2);
     transform: translate(10em, 1em);
     filter: saturate(300%);
 }

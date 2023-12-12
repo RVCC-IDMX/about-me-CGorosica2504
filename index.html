@@ -210,12 +210,14 @@
             <div>
 
                 <p>
-                    Through the use of the selector ":hover" one can apply a hover effect on an image element when a user hovers their mouse cursor over it. Along this the :hover selector, within the selection one needs to apply a "transition" declaration to designate the property being affected, the length of time for the effect, the speed form of the effect, and if desired, the amount of time an effect is delayed before activating when the cursor begins to hover over the element.
+                    Through the use of the selector ":hover" one can apply a hover effect on an image element when a user hovers their mouse cursor over it. Along with the :hover selector, within the selection one needs to apply a "transition:" declaration to designate the property being affected, the length of time for the effect, the speed form of the effect, and if desired, the amount of time an effect is delayed before activating when the cursor begins to hover over the element.
                 </p>
 
                 <p>
-                    As noted in the image below, for Figure 1, there has been a hover effect for the image to lose opacity when a user hovers over it using the "opacity:()" property. Note the length of the effect,  the speed of how the effect takes place, and the dramatic delay that was implemented.
+                    As noted in the image below, for Figure 1, there has been a hover effect added for the image to lose opacity when a user hovers over it using the "opacity:()" property. Note the length of the effect,  the speed of how the effect takes place, and the dramatic delay that was implemented.
                 </p>
+
+                <!-- Opacity Effect Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -227,11 +229,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img\hover-display-opacity.png" alt="Code display of the opacity effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
-                    When it comes to images, there are various effects one can apply to the image apart from their opacity. For example, through the use of the "transform" function, you can assign the "translate()" property one can designate the image to move a certain distance on the x-axis and/or y-axis when a cursor is over the image as noted below in Figure 2.
+                    When it comes to images, there are various effects one can apply to the image apart from their opacity. For example, through the use of the "transform" function, you can assign the "translate()" property so that one can designate the image to move a certain distance on the x-axis and/or y-axis when a cursor is over the image as noted below in Figure 2.
                 </p>
+
+                <!-- Translate Effect Blog -->
 
                     <figure class="blog-picture-set">
 
@@ -243,12 +253,20 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img/hover-display-translate.png" alt="Code display of the translate effect">
+
+                        </div>
+
                     </figure>
 
 
                 <p>
-                    Through the use of the "scale()" property under the transform function, one can code an effect where the image scales in either the x-direction or the y-direction. Essentially, the scale property can "enlarge" or "shrink" an image. Below is Figure 3 which showcases an example figure that shrinks slowly when a user hovers over it.
+                    Through the use of the "scale()" property under the transform function, one can code an effect where the image scales in either the x-direction or the y-direction. Essentially, the scale property can "enlarge" or "shrink" an image. It can even flip a picture if the values are made negative. Below is Figure 3 which showcases an example figure that shrinks slowly when a user hovers over it.
                 </p>
+
+                <!-- Scale Shrink Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -260,11 +278,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img/hover-display-scale-shrink.png" alt="Code display of the shrinking scale effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
-                    Below is Figure 4, showcasing how the opposite happens, the image enlarges quickly insteada as instructed.
+                    Below is Figure 4, showcasing how the opposite happens, the image enlarges quickly instead as instructed.
                 </p>
+
+                <!-- Scale Enlarge Effect -->
 
                     <figure class="blog-picture-set">
 
@@ -276,11 +302,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img\hover-display-scale-enlarge.png" alt="Code display of the enlarging scale effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
-                    Apart from affecting the location and sizes of an image upon hovering, you can also add filter effects through the use of the "filter:()" to an image. For the filter property, there are different effects you can assign. For example, you can apply a greyscale percentage, removing a certain amount of saturation from an image upon a hover.
+                    Apart from affecting the location and sizes of an image upon hovering, you can also add filter effects through the use of the "filter:()" to an image. For the filter property, there are different effects you can assign. For example, you can apply a grayscale percentage through the use of the "grayscale()" property, removing a certain amount of coloration from an image upon a hover.
                 </p>
+
+                <!-- Grayscale Filter Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -292,11 +326,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img\hover-display-grayscale.png" alt="Code display of the grayscale effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
-                    Similarly, you can also apply a sepia filter by a percentage, changing the image's colors into a retro fashion brown and black coloration.
+                    Similarly, you can also apply a sepia filter by a percentage by using the "sepia()" property, changing the image's colors into a retro fashion yellow-brown and black coloration.
                 </p>
+
+                <!-- Sepia Filter Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -308,15 +350,23 @@
 
                             </div>
 
+                            <div class="code-display">
+
+                                <img src="img\hover-display-sepia.png" alt="Code display of the sepia effect">
+    
+                            </div>
+
                     </figure>
 
                 <p>
-                    Another effect is to increase the contrast by a percentage, strengthening the colors of an image. This can be used for emphasis on an image. 
+                    Another effect is to increase the saturation by a percentage using the "saturate()" property, strengthening the colors of an image. This can be used for emphasis on an image. 
                 </p>
+
+                <!-- Saturation Filter Figure -->
 
                     <figure class="blog-picture-set">
 
-                        <div class="contrast-fig">
+                        <div class="saturation-fig">
 
                             <img src="img\chefesita-hover.png" alt="Sample picture of chefesita">
 
@@ -324,11 +374,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img\hover-display-saturate.png" alt="Code display of the saturate effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
-                    For those who seek a drastic effect, one can apply the invert property to completely inverse the colors of an image to their opposites. Or, perhaps for the creative, you can apply this filter to "correct" an image back to normal colors upon the hover.
+                    For those who seek a drastic effect, one can apply the "invert()" property to completely inverse the colors of an image to their opposites. Or, perhaps for the creative, you can apply this filter to "correct" an image back to normal colors upon the hover.
                 </p>
+
+                <!-- Invert Colors Filter Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -340,11 +398,19 @@
 
                         </div>
 
+                        <div class="code-display">
+
+                            <img src="img\hover-display-invert.png" alt="Code display of the invert effect">
+
+                        </div>
+
                     </figure>
 
                 <p>
                     Naturally, apart from setting only one effect to take place, you can set multiple. To do this, make you sure are placing a comma between the sections of variables for each effect you are attempting to apply if you only wish to have specific effects to take place, otherwise, you can simply use the transition property without designating a particular effect. Note below how I've applied three different effects to occur when you hover over the image of the CSS.
                 </p>
+
+                <!-- Multiple Effects Figure -->
 
                     <figure class="blog-picture-set">
 
@@ -353,6 +419,12 @@
                             <img src="img\chefesita-hover.png" alt="Sample picture of chefesita">
 
                                 <figcaption>Figure 9</figcaption>
+
+                        </div>
+
+                        <div class="code-display">
+
+                            <img src="img\hover-display-multiple-effects.png" alt="Code display of multiple effects at once">
 
                         </div>
 
